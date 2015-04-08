@@ -1,12 +1,6 @@
 addKiller("tvhello", {
 	"canKill": function(data) {
-		if(data.src.indexOf("jwplayer.flash.swf") !== -1) {
-				alert ("true");
 				return true;
-		}
-
-		alert ("false");
-		return false;
 	},
 
 	"process": function(data, callback) {
