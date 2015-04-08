@@ -11,7 +11,7 @@ addKiller("tvhello", {
 					"poster": img_url,
 					"sources": [{
 				        "url" : decodeURIComponent(params.file),
-						"format": "MP4",
+		 				"format": "MP4",
 						"isNative": true
 					}]
 				}]
