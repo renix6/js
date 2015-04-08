@@ -1,4 +1,4 @@
-addKiller("ImbcNews", {
+addKiller("tvhello", {
 	"canKill": function(data) {
 		if(data.src.indexOf("jwplayer.flash.swf") !== -1) return true;
 		return false;
